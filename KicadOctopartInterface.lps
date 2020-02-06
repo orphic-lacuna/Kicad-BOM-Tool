@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Debug"/>
+    <Units Count="27">
+      <Unit0>
+        <Filename Value="KicadOctopartInterface.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="41" Y="3"/>
+        <UsageCount Value="140"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="MainWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="214"/>
+        <CursorPos X="33" Y="244"/>
+        <UsageCount Value="140"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="195"/>
+        <CursorPos X="24" Y="213"/>
+        <UsageCount Value="139"/>
+        <Bookmarks Count="3">
+          <Item0 Y="32" ID="1"/>
+          <Item1 Y="487" ID="2"/>
+          <Item2 Y="221" ID="3"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="wndEditProperties.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmEditProperties"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="26"/>
+        <CursorPos X="14" Y="44"/>
+        <UsageCount Value="130"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="BOMExport.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="121"/>
+        <CursorPos X="29" Y="141"/>
+        <UsageCount Value="128"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="LibreOfficeCalcInterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="80"/>
+        <CursorPos X="23" Y="89"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="wndConfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmConfig"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="70" Y="56"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="AppConfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="23"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\packages\custom\Toolbox\ToolBox.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="72"/>
+        <CursorPos X="24" Y="104"/>
+        <UsageCount Value="9"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\packages\custom\Toolbox\AccurateTimer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="60" Y="68"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\fgl.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="303"/>
+        <CursorPos X="14" Y="321"/>
+        <UsageCount Value="41"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\rtl-objpas\src\inc\strutils.pp"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="942"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\rtl-objpas\src\inc\widestrutils.pp"/>
+        <UnitName Value="WideStrUtils"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\sysutils\syshelph.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="67"/>
+        <CursorPos X="14" Y="81"/>
+        <UsageCount Value="4"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\sysutils\syshelp.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="511"/>
+        <CursorPos X="3" Y="520"/>
+        <UsageCount Value="1"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\packages\custom\ListviewVirtualSortable\listviewvirtualsortable.pas"/>
+        <UnitName Value="ListViewVirtualSortable"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="326"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\packages\custom\ListviewVirtualSortable\themedlistview.pas"/>
+        <UnitName Value="ThemedListView"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="333"/>
+        <CursorPos X="36" Y="18"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="3456"/>
+        <CursorPos Y="3476"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\inc\objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="175"/>
+        <CursorPos X="23" Y="194"/>
+        <UsageCount Value="1"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\AppData\Local\lazarus\onlinepackagemanager\packages\fpspreadsheet\source\common\xlsxooxml.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="818"/>
+        <CursorPos X="35" Y="834"/>
+        <UsageCount Value="9"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\AppData\Local\lazarus\onlinepackagemanager\packages\fpspreadsheet\source\common\fpsheaderfooterparser.pas"/>
+        <UnitName Value="fpsHeaderFooterParser"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="418"/>
+        <CursorPos X="72" Y="443"/>
+        <UsageCount Value="9"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\lazarus\components\lazutils\laz2_dom.pas"/>
+        <UnitName Value="Laz2_DOM"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2616"/>
+        <CursorPos X="31" Y="2629"/>
+        <UsageCount Value="9"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\..\AppData\Local\lazarus\onlinepackagemanager\packages\fpspreadsheet\source\common\fpsreaderwriter.pas"/>
+        <UnitName Value="fpsReaderWriter"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="765"/>
+        <CursorPos Y="784"/>
+        <UsageCount Value="9"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\lazarus\lcl\include\listitems.inc"/>
+        <EditorIndex Value="6"/>
+        <CursorPos Y="27"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\KameraInterface\AppConfig.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="107"/>
+        <CursorPos Y="145"/>
+        <UsageCount Value="8"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\regexpr\src\regex.pp"/>
+        <UnitName Value="Regex"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\regexpr\src\regexpr.pas"/>
+        <UnitName Value="RegExpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4151"/>
+        <CursorPos Y="4189"/>
+        <UsageCount Value="9"/>
+      </Unit26>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="80" Column="3" TopLine="78"/>
+      </Position1>
+      <Position2>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="200" Column="77" TopLine="177"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="473" Column="34" TopLine="447"/>
+      </Position3>
+      <Position4>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="200" Column="77" TopLine="177"/>
+      </Position4>
+      <Position5>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="124" Column="3" TopLine="137"/>
+      </Position5>
+      <Position6>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="129" Column="18" TopLine="127"/>
+      </Position6>
+      <Position7>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="59" Column="13" TopLine="41"/>
+      </Position7>
+      <Position8>
+        <Filename Value="wndConfig.pas"/>
+        <Caret Line="64" TopLine="34"/>
+      </Position8>
+      <Position9>
+        <Filename Value="wndConfig.pas"/>
+        <Caret Line="65" TopLine="35"/>
+      </Position9>
+      <Position10>
+        <Filename Value="wndConfig.pas"/>
+        <Caret Line="66" TopLine="36"/>
+      </Position10>
+      <Position11>
+        <Filename Value="wndConfig.pas"/>
+        <Caret Line="67" TopLine="37"/>
+      </Position11>
+      <Position12>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="237" Column="3" TopLine="214"/>
+      </Position12>
+      <Position13>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="124" Column="3" TopLine="122"/>
+      </Position13>
+      <Position14>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="130" Column="18" TopLine="122"/>
+      </Position14>
+      <Position15>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="59" Column="13" TopLine="47"/>
+      </Position15>
+      <Position16>
+        <Filename Value="MainWindow.pas"/>
+        <Caret Line="244" Column="33" TopLine="214"/>
+      </Position16>
+      <Position17>
+        <Filename Value="wndEditProperties.pas"/>
+        <Caret Line="44" Column="14" TopLine="26"/>
+      </Position17>
+      <Position18>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="64" Column="3" TopLine="45"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="66" Column="12" TopLine="45"/>
+      </Position19>
+      <Position20>
+        <Filename Value="BOMExport.pas"/>
+        <Caret Line="141" Column="28" TopLine="121"/>
+      </Position20>
+      <Position21>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="82" Column="14" TopLine="63"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="77" Column="12" TopLine="63"/>
+      </Position22>
+      <Position23>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="41" Column="120" TopLine="31"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="77" Column="25" TopLine="48"/>
+      </Position24>
+      <Position25>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="82" Column="66" TopLine="50"/>
+      </Position25>
+      <Position26>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="136" Column="32" TopLine="104"/>
+      </Position26>
+      <Position27>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="424" Column="8" TopLine="413"/>
+      </Position27>
+      <Position28>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="224" Column="22" TopLine="202"/>
+      </Position28>
+      <Position29>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="69" Column="14" TopLine="50"/>
+      </Position29>
+      <Position30>
+        <Filename Value="Kicad.SchematicFile.pas"/>
+        <Caret Line="66" Column="12" TopLine="50"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

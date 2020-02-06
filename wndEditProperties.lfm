@@ -1,0 +1,295 @@
+object frmEditProperties: TfrmEditProperties
+  Left = 10555
+  Height = 837
+  Top = 443
+  Width = 861
+  Caption = 'Parameter bearbeiten'
+  ClientHeight = 837
+  ClientWidth = 861
+  DesignTimePPI = 240
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnHide = FormHide
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '2.0.4.0'
+  object gbProperties: TGroupBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = btnSave
+    Left = 32
+    Height = 658
+    Top = 32
+    Width = 797
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Around = 32
+    Caption = 'Eigenschaften der ausgewählten Bauteile'
+    ChildSizing.ControlsPerLine = 4
+    ClientHeight = 603
+    ClientWidth = 793
+    Font.Height = -37
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = gbPropertiesClick
+    object lblDesignator: TLabel
+      AnchorSideLeft.Control = gbProperties
+      AnchorSideTop.Control = edtDesignator
+      AnchorSideTop.Side = asrCenter
+      Left = 32
+      Height = 50
+      Top = 32
+      Width = 184
+      BorderSpacing.Left = 32
+      BorderSpacing.Top = 32
+      Caption = 'Bezeichner:'
+      Font.Height = -37
+      ParentColor = False
+      ParentFont = False
+    end
+    object edtDesignator: TEdit
+      AnchorSideRight.Control = gbProperties
+      AnchorSideRight.Side = asrBottom
+      Left = 312
+      Height = 53
+      Top = 31
+      Width = 449
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Right = 32
+      Font.Height = -33
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+    object lblValue: TLabel
+      AnchorSideLeft.Control = lblDesignator
+      AnchorSideTop.Control = edtValue
+      AnchorSideTop.Side = asrCenter
+      Left = 32
+      Height = 50
+      Top = 117
+      Width = 87
+      Caption = 'Wert:'
+      Font.Height = -37
+      ParentColor = False
+      ParentFont = False
+    end
+    object lblFootprint: TLabel
+      AnchorSideLeft.Control = lblDesignator
+      AnchorSideTop.Control = edtFootprint
+      AnchorSideTop.Side = asrCenter
+      Left = 32
+      Height = 50
+      Top = 202
+      Width = 161
+      Caption = 'Footprint:'
+      Font.Height = -37
+      ParentColor = False
+      ParentFont = False
+    end
+    object edtValue: TEdit
+      AnchorSideLeft.Control = edtDesignator
+      AnchorSideTop.Control = edtDesignator
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = edtDesignator
+      AnchorSideRight.Side = asrBottom
+      Left = 312
+      Height = 53
+      Top = 116
+      Width = 449
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 32
+      Font.Height = -33
+      OnChange = editChange
+      ParentFont = False
+      TabOrder = 1
+    end
+    object edtFootprint: TEdit
+      AnchorSideLeft.Control = edtDesignator
+      AnchorSideTop.Control = edtValue
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = edtDesignator
+      AnchorSideRight.Side = asrBottom
+      Left = 312
+      Height = 53
+      Top = 201
+      Width = 449
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 32
+      Font.Height = -33
+      OnChange = editChange
+      ParentFont = False
+      TabOrder = 2
+    end
+    object lblManufacturer: TLabel
+      AnchorSideLeft.Control = lblDesignator
+      AnchorSideTop.Control = edtManufacturer
+      AnchorSideTop.Side = asrCenter
+      Left = 32
+      Height = 50
+      Top = 372
+      Width = 156
+      Caption = 'Hersteller'
+      Font.Height = -37
+      ParentColor = False
+      ParentFont = False
+    end
+    object edtManufacturer: TEdit
+      AnchorSideLeft.Control = edtDesignator
+      AnchorSideTop.Control = edtShort_Footprint
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = edtDesignator
+      AnchorSideRight.Side = asrBottom
+      Left = 312
+      Height = 53
+      Top = 371
+      Width = 449
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 32
+      Font.Height = -33
+      OnChange = editChange
+      ParentFont = False
+      TabOrder = 3
+    end
+    object lblPartNumber: TLabel
+      AnchorSideLeft.Control = lblDesignator
+      AnchorSideTop.Control = edtPartNumber
+      AnchorSideTop.Side = asrCenter
+      Left = 32
+      Height = 50
+      Top = 457
+      Width = 121
+      Caption = 'Teilenr.:'
+      Font.Height = -37
+      ParentColor = False
+      ParentFont = False
+    end
+    object edtPartNumber: TEdit
+      AnchorSideLeft.Control = edtDesignator
+      AnchorSideTop.Control = edtManufacturer
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = edtDesignator
+      AnchorSideRight.Side = asrBottom
+      Left = 312
+      Height = 53
+      Top = 456
+      Width = 449
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 32
+      Font.Height = -33
+      OnChange = editChange
+      ParentFont = False
+      TabOrder = 4
+    end
+    object lblSupplier: TLabel
+      AnchorSideLeft.Control = lblDesignator
+      AnchorSideTop.Control = edtSupplier
+      AnchorSideTop.Side = asrCenter
+      Left = 32
+      Height = 50
+      Top = 542
+      Width = 150
+      Caption = 'Lieferant:'
+      Font.Height = -37
+      ParentColor = False
+      ParentFont = False
+    end
+    object edtSupplier: TEdit
+      AnchorSideLeft.Control = edtDesignator
+      AnchorSideTop.Control = edtPartNumber
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = edtDesignator
+      AnchorSideRight.Side = asrBottom
+      Left = 312
+      Height = 53
+      Top = 541
+      Width = 449
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 32
+      Font.Height = -33
+      ParentFont = False
+      TabOrder = 5
+    end
+    object edtSupplierSKU: TEdit
+      AnchorSideLeft.Control = edtDesignator
+      AnchorSideTop.Control = edtSupplier
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = edtDesignator
+      AnchorSideRight.Side = asrBottom
+      Left = 312
+      Height = 53
+      Top = 626
+      Width = 449
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 32
+      Font.Height = -33
+      ParentFont = False
+      TabOrder = 6
+    end
+    object lblSupplierSKU: TLabel
+      AnchorSideLeft.Control = lblDesignator
+      AnchorSideTop.Control = edtSupplierSKU
+      AnchorSideTop.Side = asrCenter
+      Left = 32
+      Height = 50
+      Top = 627
+      Width = 156
+      Caption = 'Bestellnr.:'
+      Font.Height = -37
+      ParentColor = False
+      ParentFont = False
+    end
+    object lblShortFootprint: TLabel
+      AnchorSideLeft.Control = lblDesignator
+      AnchorSideTop.Control = edtShort_Footprint
+      AnchorSideTop.Side = asrCenter
+      Left = 32
+      Height = 50
+      Top = 287
+      Width = 148
+      Caption = 'Bauform:'
+      Font.Height = -37
+      ParentColor = False
+      ParentFont = False
+    end
+    object edtShort_Footprint: TEdit
+      AnchorSideLeft.Control = edtDesignator
+      AnchorSideTop.Control = edtFootprint
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = edtDesignator
+      AnchorSideRight.Side = asrBottom
+      Left = 312
+      Height = 53
+      Top = 286
+      Width = 449
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Top = 32
+      Font.Height = -33
+      ParentFont = False
+      TabOrder = 7
+    end
+  end
+  object btnSave: TScalingBitBtn
+    AnchorSideTop.Control = gbProperties
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = gbProperties
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 480
+    Height = 83
+    Top = 722
+    Width = 349
+    ImageList = frmMain.FormIcons
+    ImageIndex = 2
+    ImageTextSpacing = 10
+    ImageSizeFactor = 1
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Bottom = 32
+    Caption = 'Übernehmen'
+    OnClick = btnSaveClick
+    TabOrder = 1
+  end
+end
